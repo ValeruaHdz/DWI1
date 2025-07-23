@@ -1,12 +1,11 @@
 {
-  "name": "dwip2",
+  "name": "apirest",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "Valeria Guadalupe Jimenez Hernandez",
+  "author": "Valeria Hernandez",
   "license": "ISC",
   "description": "",
   "dependencies": {

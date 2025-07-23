@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const CONFIG = require('./configuracion')
+const CONFIG = require('./Configuracion')
 const e = require('express')
 
 module.exports={
@@ -11,7 +11,7 @@ module.exports={
             this.conection = conn
             console.log('la conexion se realizo con exito')
         })
-        .catch(e => console.log('error en la conexion', e))
-    }
+        .catch(e => console.log('error en la conexion', e))
+    }
 
 }
